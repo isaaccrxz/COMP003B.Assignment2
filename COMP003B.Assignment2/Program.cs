@@ -27,7 +27,7 @@ namespace COMP003B.Assignment2
             app.UseRouting();
 
             app.UseAuthorization();
-
+            
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
